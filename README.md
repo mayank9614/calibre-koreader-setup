@@ -94,7 +94,7 @@ Philosopher* (tagged Philosophy + History) goes to Ideas. "Juvenile Nonfiction" 
 > **Back up your library** first by copying `metadata.db` from your calibre library folder.
 
 ```powershell
-git clone https://github.com/<you>/calibre-koreader-setup
+git clone https://github.com/mayank9614/calibre-koreader-setup
 cd calibre-koreader-setup
 copy config.example.json config.json   # then edit it
 calibre --shutdown-running-calibre
