@@ -1,0 +1,16 @@
+{
+  "_comment": "Optional. Copy to overrides.json. Keys are KOReader filenames (without .epub). Used by scripts/05_clean_titles.py for books whose filename can't be split into 'Title - Author', or whose authors are surnames only.",
+
+  "India - A History - John Keay": {
+    "title": "India: A History",
+    "authors": ["John Keay"]
+  },
+  "Manufacturing Consent - Herman & Chomsky": {
+    "title": "Manufacturing Consent",
+    "authors": ["Edward S. Herman", "Noam Chomsky"]
+  },
+  "Death's End - Cixin Liu": {
+    "series": "The Three-Body Problem",
+    "series_index": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_comment": "Copy to config.json and edit. Paths are for Windows; use forward slashes or escaped backslashes.",
+
+  "calibre_library": "C:/Users/YOU/Documents/calibre",
+  "kindle_books_dir": "D:/documents/Books",
+  "koreader_books_dir": "/mnt/us/documents/Books",
+  "pc_ip": "192.168.1.10",
+  "wireless_port": 9090,
+
+  "inbox_folder": "0 Inbox",
+  "skip_metadata_folders": ["7 Magazines & News", "8 Misc"],
+  "junk_authors": ["uploader name", "another uploader"],
+
+  "genre_rules": [
+    ["science fiction|sci-fi|scifi|fantasy|speculative|dystopi|space opera", "3 Sci-Fi & Fantasy"],
+    ["thriller|mystery|crime|suspense|detective|noir|espionage", "1 Fiction - Thrillers & Mystery"],
+    ["programming|computer|software|algorithm|coding|data science|system design|machine learning", "6 Tech & Programming"],
+    ["(?<!non)(?<!non-)fiction|novel|classic|poetry|short stor|fable", "2 Fiction - Literary & Classics"],
+    ["(?<!political )science|philosoph|physics|psycholog|neuro|cognit|econom|business|financ|money|self-help|essay|religio|spiritual|sociolog", "5 Ideas, Money & Mind"],
+    ["histor|politic|biograph|memoir|\\bwar\\b|geopolit|current affairs|government|military", "4 History & Politics"]
+  ]
+}
